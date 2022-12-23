@@ -46,7 +46,7 @@ Then I calculated the following features for each day:
 
 I also used two further features from Our World In Data: new cases and new deaths.
 
-*	**Other features that could have been used:** separate volumes/sentiment by location or by profession; variance in the number of posts; other external data (vaccinations etc.)
+*	**Other features that could have been used:** separate volumes/sentiment by location or by profession; variance in the number of posts; other external data (vaccinations etc.); analysis of RTs (e.g. looking at the content of the most retweeted posts); network based features to understand interactions between tweets (e.g. posts by people central to the network, although this may need more data)
 
 ## Modelling Approach
 I used a tabular approach, trying different models (xGBoost, Logistic Regression, KNN, MLP, Random Forests). Each row represented a different day, with columns representing features and the target.
